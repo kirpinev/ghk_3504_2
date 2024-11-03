@@ -64,7 +64,7 @@ const gift = style({
   justifyContent: "center",
   flex: 1,
   flexBasis: "30%",
-  height: "4rem",
+  minHeight: "4rem",
   cursor: "pointer",
   position: "relative",
 });
