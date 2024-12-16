@@ -27,17 +27,21 @@ export const ThxLayout = () => {
           defaultMargins
           weight="bold"
         >
-          Спасибо, мы записали ваш ответ
+          Еще чуть-чуть
         </Typography.TitleResponsive>
         <Typography.Text tag="p" view="primary-medium">
-          Сервис находится в разработке. Как только он будет доступен, мы
-          обязательно вам сообщим.
+          Оформить детскую карту вы можете на следующем экране.
         </Typography.Text>
       </div>
 
       <div className={appSt.bottomBtnThx}>
-        <ButtonMobile block view="primary" href="alfabank://debit_card_showcase?flowType=KIDS" onClick={clickSuccess}>
-          Хорошо
+        <ButtonMobile
+          block
+          view="primary"
+          href="alfabank://debit_card_showcase?flowType=KIDS"
+          onClick={clickSuccess}
+        >
+          Оформить карту
         </ButtonMobile>
       </div>
     </>
